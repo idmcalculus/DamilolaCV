@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  background: rgb(196, 219, 241);
+  color: rgb(10, 27, 56);
+}
+a {
+  color: rgb(56, 109, 223);
+  text-decoration: none;
+}
+.container {
+  margin: 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container .side {
+  display: flex;
+  flex-direction: column;
+}
+.container .main {
+  display: flex;
+  flex-direction: column;
+}
+.profile-pix img {
+  top: 20px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.profile img {
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+.profile-wordings {
+  padding: 0px;
+  margin: 0px;
+}
+.icons {
+  width: 25px;
+  height: 25px;
+  margin: 10px 10px;
+}
+.main-section {
+  margin: 10px;
+}
+.name {
+  background: #446ca0;
+  color: #e4e4e4;
+  text-align: center;
+  height: 100px;
+  width: 800px;
+}
+.name div {
+  padding: 5px;
+}
+.experience {
+  margin-left: 45px;
+  position: relative;
+  bottom: 35px;
+}
+.experience-img img {
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  margin-left: 10px;
+  position: relative;
+  bottom: -10px;
+}
+.prior {
+  color: lightseagreen;
+}
+.skillname .container {
+  background-color: #ddd;
+  width: 500px;
+}
+.skills {
+  height: 0.5em;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  color: white;
+  width: 100%;
+}
+.html {
+  width: 100%;
+  background-color: #4caf50;
+}
+.teamplay {
+  width: 100%;
+  background-color: rgb(148, 125, 49);
+}
+.css {
+  width: 95%;
+  background-color: #2196f3;
+}
+.js {
+  width: 90%;
+  background-color: #f44336;
+}
+.maths {
+  width: 90%;
+  background-color: #5f2e2e;
+}
+.php {
+  width: 90%;
+  background-color: #4caf50;
+}
+.bs {
+  width: 90%;
+  background-color: rgb(148, 125, 49);
+}
+.ojet {
+  width: 90%;
+  background-color: #5e365a;
+}
+.ko {
+  width: 90%;
+  background-color: #6b7680;
+}
+.react {
+  width: 70%;
+  background-color: #c58bbf;
+}
+.angular {
+  width: 70%;
+  background-color: #f44336;
+}
+.lara {
+  width: 60%;
+  background-color: #4caf50;
+}
+.project {
+  width: 85%;
+  background-color: #c58bbf;
+}
+.nodejs {
+  width: 85%;
+  background-color: #5e365a;
+}
+.psdm {
+  width: 85%;
+  background-color: #6b7680;
+}
+.skillname {
+  text-align: left;
+  height: 10%;
+}
+.flaticon {
+  bottom: 5px;
+  float: right;
+  color: rgb(184, 187, 192);
+}
+.vertical-line {
+  border-right: 2px solid silver;
+  height: 2500px;
+}
+#about {
+  font-family: "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 480px) {
+  .container .main {
+    width: 70%;
+  }
+  .container .side {
+    width: 30%;
+  }
+}
+

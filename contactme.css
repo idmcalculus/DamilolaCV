@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background: rgb(196, 219, 241);
+    color: rgb(10, 27, 56);
+    box-sizing: border-box;
+    height: 100vh;
+    width: 50%;
+  }
+  *{
+    outline: none;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+}
+.form-style {
+    background: rgba(250, 250, 250, 0.28);
+    padding: 15px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+}
+.form_grid{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 5%;
+    align-items: center;
+}
+::placeholder {
+    color: rgb(137, 144, 160);
+  }
+.contact-form input {
+    width: 100%;
+    height: 35px;
+    color: rgb(10, 27, 56);
+    font-size: 1em;
+    line-height: 2em;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    margin-right: 0.5em;
+    transition: ease-in-out 0.5s;
+}
+.contact-form label {
+    text-align: center;
+}
+textarea {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 5px;
+    padding: 7px;
+    color: rgb(10, 27, 56);
+    font-size: 1em;
+    line-height: 2em;
+    border: none;
+}
+input:hover, input:focus{
+    border-bottom: 2px solid #070a0f;
+  }
+#submit {
+    /*border: 1px solid blue;*/
+    border: none;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+input[type="submit"]:hover {
+    transform: scale(1.2);
+}
+.is-invalid {
+    text-decoration: line-through;
+}

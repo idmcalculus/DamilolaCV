@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="contactme.css" />
+    <title>Contact me</title>
+</head>
+<br><br>
+<body>
+    <div>
+        <p>It's a great pleasure to hear from you. Kindly fill the form below to reach out. Thanks</p>
+    </div>
+    <br><br>
+    <form class="form-style form-grid contact-form" action="form.php" method="post">
+        <label for="Name">Name</label><br>
+        <input type="text" name="name" placeholder="first name last name" minlength="4" required/>
+        <div id="error"></div> <br><br>
+        <label>Email</label><br>
+        <input type="email" name="email" placeholder="example@email.com" required/> <br><br>
+        <label>Title</label><br>
+        <input type="text" name="title" placeholder="Message title" required/> <br><br>
+        <label>Message</label><br>
+        <textarea name="message" placeholder="Message" minlength="20" cols="30" rows="5" required></textarea> <br>
+        <input id="submit" type="submit" name="submit" value="Send">
+    </form>
+    <script src="contactme.js"></script>
+</body>
+<br>
+<footer>
+        <nav>
+            <h3><a href="index.html">Go back to my CV</a></h3>
+        </nav>
+</footer>
