@@ -41,10 +41,10 @@ a {
   height: 200px;
   width: 200px;
 }
-div .profile-pix-mobile {
+.profile-pix-mobile {
   display: none;
 }
-div .profile-wordings-mobile {
+.profile-wording-mobile {
   display: none;
 }
 .profile img {
@@ -222,11 +222,7 @@ div .name {
     width: 200px;
   }
 
-  div .about-me {
-    display: none;
-  }
-
-  div .profile-wordings-mobile {
+  .profile-wording-mobile {
     display: block;
     padding: 0px;
     margin: 0px;

@@ -44,7 +44,7 @@ a {
 div .profile-pix-mobile {
   display: none;
 }
-div .profile-wordings-mobile {
+div .profile-wording-mobile {
   display: none;
 }
 .profile img {
@@ -209,7 +209,7 @@ div .name {
     display: none;
   } 
 
-  div .profile-pix-mobile {
+  .profile-pix-mobile {
     display: block;
   } 
 
@@ -220,16 +220,6 @@ div .name {
     padding: 10px;
     height: 200px;
     width: 200px;
-  }
-
-  div .about-me {
-    display: none;
-  }
-
-  div .profile-wordings-mobile {
-    display: block;
-    padding: 0px;
-    margin: 0px;
   }
 
   .container .side {

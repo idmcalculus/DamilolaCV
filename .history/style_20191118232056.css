@@ -44,7 +44,7 @@ a {
 div .profile-pix-mobile {
   display: none;
 }
-div .profile-wordings-mobile {
+div .profile-wording-mobile {
   display: none;
 }
 .profile img {
@@ -222,11 +222,7 @@ div .name {
     width: 200px;
   }
 
-  div .about-me {
-    display: none;
-  }
-
-  div .profile-wordings-mobile {
+  div .profile-wording-mobile {
     display: block;
     padding: 0px;
     margin: 0px;

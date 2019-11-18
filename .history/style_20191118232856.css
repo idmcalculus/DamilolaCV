@@ -222,10 +222,6 @@ div .name {
     width: 200px;
   }
 
-  div .about-me {
-    display: none;
-  }
-
   div .profile-wordings-mobile {
     display: block;
     padding: 0px;
