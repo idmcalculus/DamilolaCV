@@ -10,14 +10,12 @@ body {
   font-size: medium;
   background: rgb(196, 219, 241);
   color: rgb(10, 27, 56);
-  width: auto;
 }
 a {
   color: rgb(56, 109, 223);
   text-decoration: none;
 }
 .container {
-  width: auto;
   margin: 5px 5px;
   display: flex;
   flex-direction: row;
@@ -26,12 +24,10 @@ a {
 .container .side {
   display: flex;
   flex-direction: column;
-  width: 30%
 }
 .container .main {
   display: flex;
   flex-direction: column;
-  width: 70%
 }
 .profile-pix img {
   top: 20px;
@@ -40,9 +36,6 @@ a {
   margin: auto;
   height: 200px;
   width: 200px;
-}
-.profile-pix-mobile{
-  display: none;
 }
 .profile img {
   width: 25px;
@@ -62,12 +55,12 @@ a {
 .main-section {
   margin: 10px;
 }
-div .name {
+.name {
   background: #446ca0;
   color: #e4e4e4;
   text-align: center;
   height: 100px;
-  width: 100%;
+  width: 800px;
 }
 .name div {
   padding: 5px;
@@ -177,54 +170,12 @@ div .name {
 #about {
   font-family: "Times New Roman", Times, serif;
 }
-
-@media screen and (max-width: 768px) {
-  .container {
-    margin: 0px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    flex-flow: column-reverse;
-    justify-content: flex-start;
-  }
-
-  #about {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
-  .name {
-    /*position: absolute;
-    top: 2px;*/
-    width: 90%;
-  }
-
-  .vertical-line {
-    display: none;
-  }
-
-  .profile-pix img {
-    display: none;
-  } 
-
-  .profile-pix-mobile {
-    display: block;
-  } 
-
-  .profile-pix-mobile img {
-    border-radius: 50%;
-    display: block;
-    margin: 5px auto;
-    padding: 10px;
-    height: 200px;
-    width: 200px;
-  }
-
-  .container .side {
-    width: 100%;
-  }
-
+@media screen and (max-width: 480px) {
   .container .main {
-    width: 100%;
+    width: 70%;
+  }
+  .container .side {
+    width: 30%;
   }
 }
 

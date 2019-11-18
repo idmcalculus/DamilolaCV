@@ -26,12 +26,12 @@ a {
 .container .side {
   display: flex;
   flex-direction: column;
-  width: 30%
+  width: 40%
 }
 .container .main {
   display: flex;
   flex-direction: column;
-  width: 70%
+  width: 60%
 }
 .profile-pix img {
   top: 20px;
