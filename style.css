@@ -114,7 +114,7 @@ div .name {
 }
 .css {
   width: 95%;
-  background-color: #2196f3;
+  background-color: #c58bbf;
 }
 .js {
   width: 90%;
@@ -125,11 +125,11 @@ div .name {
   background-color: #5f2e2e;
 }
 .php {
-  width: 90%;
-  background-color: #4caf50;
+  width: 70%;
+  background-color: #f44336;
 }
 .bs {
-  width: 90%;
+  width: 70%;
   background-color: rgb(148, 125, 49);
 }
 .ojet {
@@ -145,23 +145,23 @@ div .name {
   background-color: #c58bbf;
 }
 .angular {
-  width: 70%;
-  background-color: #f44336;
+  width: 90%;
+  background-color: #4caf50;
 }
 .lara {
-  width: 60%;
+  width: 50%;
   background-color: #4caf50;
 }
 .project {
   width: 85%;
-  background-color: #c58bbf;
+  background-color: #2196f3;
 }
 .nodejs {
-  width: 85%;
+  width: 90%;
   background-color: #5e365a;
 }
 .psdm {
-  width: 85%;
+  width: 90%;
   background-color: #6b7680;
 }
 .skillname {
@@ -179,6 +179,7 @@ div .name {
 }
 #about {
   font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {

@@ -5,7 +5,7 @@
         $title = $_POST['title'];
         $message = $_POST['message'];
         $fp = fopen("output.txt", "w+");
-        $filedata = "Name: ".$name."/r/n"." Email: ".$email."/r/n"." Message Title: ".$title."/r/n"." Message: ".$message."/r/n";
+        $filedata = "Name: ".$name."/n"." Email: ".$email."/n"." Message Title: ".$title."/n"." Message: ".$message."/n";
         fwrite($fp, $filedata);
         fclose($fp);
 

@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         validateEmail();
         validateTitle();
         validateMessage();
-    }
+    };
     document.querySelector('#submit').addEventListener('click', validateInputs);
 
 
